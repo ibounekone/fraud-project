@@ -1,0 +1,23 @@
+# Données (trop volumineuses)
+data/raw/*.csv
+data/processed/*.npy
+
+# Modèles (peuvent être régénérés)
+models/*.pkl
+
+# Environnement virtuel
+fraud_env/
+energy_env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+data/metrics/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
